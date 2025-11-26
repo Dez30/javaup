@@ -16,6 +16,9 @@ const config = {
   // 激活 mermaid
   markdown: {
     mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
   },
   themes: ['@docusaurus/theme-mermaid'],
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -35,7 +38,6 @@ const config = {
   projectName: 'javaUp', // Usually your repo name.
 
   onBrokenLinks: 'warn', // 'throw' | 'log' | 'warn' | 'ignore'
-  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
