@@ -1,6 +1,7 @@
 ---
 slug: /framework/springcloud/feign-concept
 ---
+# Feign核心概念与技术对比
 
 ## Feign简介与设计理念
 

@@ -1,6 +1,7 @@
 ---
 slug: /framework/springcloud/feign-config
 ---
+# Feign配置与超时管理
 
 ## Feign 超时配置详解
 
