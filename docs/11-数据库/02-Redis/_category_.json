@@ -1,0 +1,6 @@
+{
+  "label": "Redis",
+  "position": 2,
+  "collapsed": false,
+  "link": { "type": "generated-index", "slug": "/database/redis" }
+}
