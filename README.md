@@ -219,60 +219,6 @@
 
 ---
 
-## 🚀 快速开始
-
-### 📦 安装依赖
-
-```bash
-# 使用 yarn 安装
-yarn
-
-# 或使用 npm 安装
-npm install
-```
-
-### 💻 本地开发
-
-```bash
-# 启动开发服务器
-yarn start
-
-# 或使用 npm
-npm run start
-```
-
-执行命令后，会自动打开浏览器访问 `http://localhost:3000`，大部分修改都会实时热更新。
-
-### 🔨 构建项目
-
-```bash
-# 构建生产版本
-yarn build
-
-# 或使用 npm
-npm run build
-```
-
-构建完成后，静态文件会生成到 `build` 目录，可以部署到任何静态服务器。
-
-### 🌐 部署
-
-#### 使用 SSH 部署：
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-#### 不使用 SSH 部署：
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-> 如果使用 GitHub Pages 托管，此命令会自动构建网站并推送到 `gh-pages` 分支。
-
----
-
 ## 📚 技术栈
 
 本项目基于以下技术构建：
@@ -301,13 +247,6 @@ GIT_USER=<Your GitHub username> yarn deploy
 - ✨ 添加新功能
 - 🎨 改进 UI/UX
 - 🚀 性能优化
-
----
-
-## 📄 许可证
-
-本项目采用 MIT 许可证。详见 [LICENSE](LICENSE) 文件。
-
 ---
 
 ## 💬 联系方式
@@ -315,16 +254,8 @@ GIT_USER=<Your GitHub username> yarn deploy
 如果你有任何问题或建议，欢迎通过以下方式联系我：
 
 - **GitHub Issues**: [提交问题](https://github.com/shining-stars-l/javaup/issues)
-- **Email**: your-email@example.com
+- **Email**: 1031900093@qq.com
 - **微信公众号**: JavaUp 技术社区
-
----
-
-## ⭐ Star History
-
-如果这个项目对你有帮助，欢迎 Star ⭐️ 支持一下！
-
-[![Star History Chart](https://api.star-history.com/svg?repos=shining-stars-l/javaup&type=Date)](https://star-history.com/#shining-stars-l/javaup&Date)
 
 ---
 
