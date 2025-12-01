@@ -1,6 +1,7 @@
 ---
 slug: /framework/springcloud/04-Hystrix熔断与容错机制详解
 ---
+# Hystrix熔断与容错机制详解
 
 ## Hystrix容错设计理念
 

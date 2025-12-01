@@ -1,6 +1,7 @@
 ---
 slug: /database/redis/redis-8-new-features
 ---
+# Redis 8.0版本新特性详解
 
 ## Redis 8.0 的重要更新
 

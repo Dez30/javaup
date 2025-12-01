@@ -1,6 +1,7 @@
 ---
 slug: /framework/springcloud/03-Eureka核心机制深度解析
 ---
+# Eureka核心机制深度解析
 
 ## Eureka架构概述
 

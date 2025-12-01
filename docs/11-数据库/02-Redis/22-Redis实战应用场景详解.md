@@ -1,6 +1,7 @@
 ---
 slug: /database/redis/practical-application-scenarios
 ---
+# Redis实战应用场景详解
 
 ## Redis 的多样化应用场景
 
