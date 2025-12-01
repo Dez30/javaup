@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'JavaUp',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
   // 激活 mermaid
@@ -98,10 +98,10 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'JavaUp',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
@@ -122,7 +122,12 @@ const config = {
             position: 'left',
             label: '数据库相关',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: '框架中间件相关',
+            position: 'left',
+            label: '框架中间件相关',
+          },
           {
             href: 'https://github.com/shining-stars-l/javaup',
             label: 'GitHub',
