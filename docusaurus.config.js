@@ -112,6 +112,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: '系统基础内功',
+            position: 'left',
+            label: '系统基础内功',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'Java相关',
             position: 'left',
             label: 'Java相关',
