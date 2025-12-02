@@ -1,6 +1,8 @@
 ---
 slug: /framework/rabbitmq/01-RabbitMQ架构与工作模式
 ---
+# RabbitMQ架构与工作模式
+
 ## RabbitMQ核心架构解析
 
 RabbitMQ是一款基于AMQP(高级消息队列协议)的开源消息中间件,广泛应用于微服务架构中的异步通信场景。它同时支持STOMP(简单文本定向消息协议)和MQTT(物联网协议)等多种消息传递标准,为分布式系统提供了可靠的消息传递能力。
