@@ -59,7 +59,6 @@ const config = {
 
   // Handle broken links
   onBrokenLinks: 'warn', // 'throw' | 'log' | 'warn' | 'ignore'
-  onBrokenMarkdownLinks: 'warn',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -92,18 +91,7 @@ const config = {
           sidebarPath: './sidebars.js',
           // 关闭"Edit this page"链接：不配置 editUrl 即可
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // 关闭"Edit this page"链接：不配置 editUrl 即可
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false, // 禁用博客功能（不使用博客目录）
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -160,6 +148,12 @@ var _hmt = _hmt || [];
           // },
           {
             type: 'docSidebar',
+            sidebarId: 'Java相关',
+            position: 'left',
+            label: 'Java相关',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: '开发工具',
             position: 'left',
             label: '开发工具',
@@ -169,12 +163,6 @@ var _hmt = _hmt || [];
             sidebarId: '基础内功',
             position: 'left',
             label: '基础内功',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'Java相关',
-            position: 'left',
-            label: 'Java相关',
           },
           {
             type: 'docSidebar',
