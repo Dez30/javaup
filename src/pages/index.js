@@ -196,7 +196,7 @@ function BaguSection() {
         <div className={styles.baguActions}>
           <Link
             className={clsx('button button--primary button--lg', styles.baguBtn)}
-            to="/how-to-study/intro/full-service">
+            to="/java/interview-skills/preparation-guide">
             🎯 开始学习
           </Link>
           <Link
