@@ -89,7 +89,10 @@ const config = {
           //第一次渲染时展开类别，而不是折叠
           sidebarCollapsed: false,
           sidebarPath: './sidebars.js',
-          // 关闭"Edit this page"链接：不配置 editUrl 即可
+          // 开启"编辑此页"链接，指向 GitHub 仓库
+          editUrl: 'https://github.com/shining-stars-l/javaup/edit/dev/',
+          // 自定义编辑链接文本（可选）
+          editLocalizedFiles: false
         },
         blog: false, // 禁用博客功能（不使用博客目录）
         theme: {
