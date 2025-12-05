@@ -28,7 +28,7 @@
 
 **JavaUp** 是一套精心打造的 Java 全栈技术知识库，包含 **超级八股文系列** 和 **五大实战项目**。无论你是准备面试的求职者，还是想要系统提升技术能力的开发者，这里都能找到你需要的内容。
 
-### 核心特点
+## 核心特点
 
 - 📚 **超级八股文**：累计 **95万+字**，深度技术文章，覆盖 Java 全栈技术体系
 - 🔥 **不只是背诵**：每个知识点都有「原理剖析 + 代码示例 + 流程图解」，真正理解技术本质
@@ -39,18 +39,18 @@
 
 ---
 
-## 📖 超级八股文内容一览
+# 📖 超级八股文内容一览
 
 **累计字数 95万+，持续更新中！**
 
-### Java 核心
+## Java 核心
 
-#### 面试技巧
+### 面试技巧
 - [面试准备全攻略](https://javaup.chat/java/interview-skills/preparation-guide)
 - [项目介绍与技术面试准备](https://javaup.chat/java/interview-skills/project-and-tech-preparation)
 - [面试与复盘技巧](https://javaup.chat/java/interview-skills/mindset-and-review)
 
-#### 基础知识
+### 基础知识
 - [Java语言特性与核心概念](https://javaup.chat/java/base/core-features)
 - [面向对象核心概念](https://javaup.chat/java/base/oop-concepts)
 - [异常处理与final-finally-finalize](https://javaup.chat/java/base/exceptions-final)
@@ -72,7 +72,7 @@
 - [Arrays排序算法详解](https://javaup.chat/java/base/arrays-sort)
 - [ClassNotFoundException异常分析](https://javaup.chat/java/base/classnotfoundexception)
 
-#### 集合框架
+### 集合框架
 - [Java集合框架详解](https://javaup.chat/java/collect/introduce)
 - [Set集合与排序机制详解](https://javaup.chat/java/collect/set-collection-and-sorting)
 - [集合遍历修改与并发安全](https://javaup.chat/java/collect/safe-traversal-and-modification)
@@ -91,7 +91,7 @@
 - [ConcurrentHashMap架构演进与设计权衡](https://javaup.chat/java/collect/concurrenthashmap-architecture-evolution)
 - [ConcurrentHashMap高级特性与最佳实践](https://javaup.chat/java/collect/concurrenthashmap-advanced-features)
 
-#### IO 相关
+### IO 相关
 - [Java IO基础与流操作](https://javaup.chat/java/io/io-basis)
 - [Java IO设计模式详解](https://javaup.chat/java/io/design-patterns)
 - [IO模型与并发处理策略](https://javaup.chat/java/io/io-model-concurrent)
@@ -99,7 +99,7 @@
 - [NIO核心组件与零拷贝](https://javaup.chat/java/io/nio-core)
 - [IO多路复用技术详解](https://javaup.chat/java/io/io-multiplexing)
 
-#### JVM 虚拟机
+### JVM 虚拟机
 
 **内存分布**
 - [JVM运行时内存区域详解](https://javaup.chat/java/jvm/memory-area)
@@ -126,14 +126,14 @@
 - [JVM参数配置与性能调优](https://javaup.chat/java/jvm/jvm-parameters-tuning)
 - [JVM诊断分析工具实战](https://javaup.chat/java/jvm/jvm-diagnostic-tools)
 
-#### 类加载
+### 类加载
 - [类的生命周期与加载时机](https://javaup.chat/java/class-loading/lifecycle-and-timing)
 - [类加载详细流程解析](https://javaup.chat/java/class-loading/loading-process)
 - [类加载器与双亲委派机制](https://javaup.chat/java/class-loading/classloader-and-delegation)
 - [双亲委派破坏与安全机制](https://javaup.chat/java/class-loading/delegation-breaking-and-security)
 - [Class文件结构深度解析](https://javaup.chat/java/class-loading/class-file-structure)
 
-#### 并发多线程
+### 并发多线程
 - [并发编程基础概念](https://javaup.chat/java/concurrent-multithreading/concurrent-basics)
 - [线程调度与上下文切换](https://javaup.chat/java/concurrent-multithreading/thread-scheduling)
 - [线程通信与协作机制](https://javaup.chat/java/concurrent-multithreading/thread-communication)
@@ -172,7 +172,7 @@
 - [异步编程与CompletableFuture实战](https://javaup.chat/java/concurrent-multithreading/completablefuture-async-programming)
 - [并发同步工具实战指南](https://javaup.chat/java/concurrent-multithreading/concurrent-synchronizers-guide)
 
-#### 设计模式
+### 设计模式
 - [设计模式概述与基本原则](https://javaup.chat/java/design-pattern/overview-and-principles)
 - [单例模式深度解析](https://javaup.chat/java/design-pattern/singleton-pattern)
 - [工厂模式体系详解](https://javaup.chat/java/design-pattern/factory-pattern)
@@ -180,12 +180,12 @@
 - [结构型设计模式应用](https://javaup.chat/java/design-pattern/structural-patterns)
 - [MVC架构模式与设计模式实战](https://javaup.chat/java/design-pattern/mvc-and-practice)
 
-#### Stream 流
+### Stream 流
 - [Lambda表达式与语法糖机制详解](https://javaup.chat/java/stream/lambda-and-syntactic-sugar)
 - [Stream API核心操作详解](https://javaup.chat/java/stream/api-operations)
 - [Stream并行流原理与性能优化](https://javaup.chat/java/stream/parallel-stream)
 
-#### 安全攻防
+### 安全攻防
 - [Web安全攻击与防护](https://javaup.chat/java/security-attack/web-security)
 - [网络层攻击与防护](https://javaup.chat/java/security-attack/network-attack)
 - [权限控制与越权漏洞](https://javaup.chat/java/security-attack/privilege-escalation)
@@ -193,33 +193,33 @@
 
 ---
 
-### 开发工具
+## 开发工具
 
-#### Maven
+### Maven
 - [Maven项目管理工具详解](https://javaup.chat/tools/maven/overview)
 - [Maven依赖管理与冲突解决](https://javaup.chat/tools/maven/dependency-management)
 - [Maven插件系统与开发实践](https://javaup.chat/tools/maven/plugins-best-practices)
 
-#### Git
+### Git
 - [Git版本控制系统全面解析](https://javaup.chat/tools/git/version-control-system)
 - [Git代码回滚与分支合并策略](https://javaup.chat/tools/git/rollback-and-merge)
 - [GitHub高效使用技巧与实践](https://javaup.chat/tools/git/github-advanced-tips)
 
-#### Docker
+### Docker
 - [Docker容器技术核心概念](https://javaup.chat/tools/docker/core-concepts)
 - [Docker安装配置与实战操作](https://javaup.chat/tools/docker/practical-guide)
 - [Dockerfile镜像构建与容器编排](https://javaup.chat/tools/docker/advanced-applications)
 
-#### 日志
+### 日志
 - [Java日志框架与门面模式](https://javaup.chat/tools/logging/framework-facade)
 - [日志性能优化实践](https://javaup.chat/tools/logging/performance-optimization)
 - [分布式日志系统架构](https://javaup.chat/tools/logging/distributed-system)
 
 ---
 
-### 计算机基础
+## 计算机基础
 
-#### 操作系统
+### 操作系统
 - [进程线程与协程](https://javaup.chat/system/operating-system/process-thread-coroutine)
 - [进程通信与调度](https://javaup.chat/system/operating-system/process-communication-scheduling)
 - [内存管理与虚拟地址](https://javaup.chat/system/operating-system/memory-management)
@@ -228,7 +228,7 @@
 - [IO优化与零拷贝](https://javaup.chat/system/operating-system/io-optimization-zerocopy)
 - [线程实现机制](https://javaup.chat/system/operating-system/thread-implementation)
 
-#### 网络
+### 网络
 - [网络基础与协议模型](https://javaup.chat/system/network/basic-and-protocol-model)
 - [TCP协议深入解析](https://javaup.chat/system/network/tcp-protocol-deep-dive)
 - [HTTP协议演进与特性](https://javaup.chat/system/network/http-protocol-evolution)
@@ -236,7 +236,7 @@
 - [网络架构与优化](https://javaup.chat/system/network/network-architecture-and-optimization)
 - [网络诊断与监控](https://javaup.chat/system/network/network-diagnosis-and-monitoring)
 
-#### 数据结构
+### 数据结构
 - [线性数据结构](https://javaup.chat/system/data-structure/linear-structures)
 - [树形结构基础](https://javaup.chat/system/data-structure/tree-basics)
 - [平衡树与搜索树](https://javaup.chat/system/data-structure/balanced-search-trees)
@@ -245,9 +245,9 @@
 
 ---
 
-### 数据库
+## 数据库
 
-#### MySQL
+### MySQL
 
 **锁机制**
 - [MySQL锁机制概述](https://javaup.chat/database/mysql/lock-mechanism-overview)
@@ -302,7 +302,7 @@
 - [数据归档与平滑迁移实战](https://javaup.chat/database/mysql/data-archive-migration)
 - [逻辑删除与唯一性约束设计](https://javaup.chat/database/mysql/logical-delete-unique-constraint)
 
-#### Redis
+### Redis
 - [Redis核心数据类型与底层实现](https://javaup.chat/database/redis/core-data-types)
 - [Redis线程模型与性能优化](https://javaup.chat/database/redis/threading-model)
 - [Redis高级数据结构实现原理](https://javaup.chat/database/redis/data-structures)
@@ -326,7 +326,7 @@
 - [Redis实战应用场景详解](https://javaup.chat/database/redis/practical-application-scenarios)
 - [Redis操作最佳实践与遍历技巧](https://javaup.chat/database/redis/best-practices-and-key-traversal)
 
-#### Oracle
+### Oracle
 - [Oracle索引技术全面解析](https://javaup.chat/database/oracle/index-technology)
 - [Oracle核心语法与特性](https://javaup.chat/database/oracle/core-syntax-features)
 - [Oracle事务隔离机制详解](https://javaup.chat/database/oracle/transaction-isolation)
@@ -335,9 +335,9 @@
 
 ---
 
-### 框架中间件
+## 框架中间件
 
-#### Spring
+### Spring
 - [Spring核心概念详解](https://javaup.chat/framework/spring/core-concepts)
 - [Bean生命周期与依赖注入](https://javaup.chat/framework/spring/bean-lifecycle)
 - [Spring高级特性与应用](https://javaup.chat/framework/spring/advanced-features)
@@ -359,7 +359,7 @@
 - [SpringBoot Bean加载顺序控制](https://javaup.chat/framework/spring/bean-loading-order)
 - [SpringBoot启动原理](https://javaup.chat/framework/spring/springboot-startup)
 
-#### MyBatis
+### MyBatis
 - [MyBatis基础与核心概念](https://javaup.chat/framework/mybatis/basic-concepts)
 - [MyBatis工作原理与核心组件](https://javaup.chat/framework/mybatis/working-principle)
 - [MyBatis参数处理与SQL注入防护](https://javaup.chat/framework/mybatis/parameter-handling)
@@ -372,7 +372,7 @@
 - [MyBatis连接池与数据源配置](https://javaup.chat/framework/mybatis/datasource)
 - [MyBatis-Plus增强特性详解](https://javaup.chat/framework/mybatis/mybatis-plus)
 
-#### SpringCloud
+### SpringCloud
 - [SpringCloud核心概念与架构](https://javaup.chat/framework/springcloud/core-architecture)
 - [API网关技术选型与对比](https://javaup.chat/framework/springcloud/api-gateway)
 - [Eureka核心机制深度解析](https://javaup.chat/framework/springcloud/eureka-mechanism)
@@ -386,14 +386,14 @@
 - [Feign配置与超时管理](https://javaup.chat/framework/springcloud/feign-config)
 - [Feign性能优化与负载均衡](https://javaup.chat/framework/springcloud/feign-optimization)
 
-#### Zookeeper
+### Zookeeper
 - [Zookeeper核心架构与数据模型](https://javaup.chat/framework/zookeeper/core-architecture)
 - [Zookeeper一致性保障机制](https://javaup.chat/framework/zookeeper/consistency-mechanism)
 - [Zookeeper选举机制详解](https://javaup.chat/framework/zookeeper/leader-election)
 - [Zookeeper监听机制与通知](https://javaup.chat/framework/zookeeper/watch-mechanism)
 - [Zookeeper典型应用场景](https://javaup.chat/framework/zookeeper/typical-scenarios)
 
-#### Kafka
+### Kafka
 - [Kafka基础架构与核心概念](https://javaup.chat/framework/kafka/architecture)
 - [Kafka消息可靠性保障机制](https://javaup.chat/framework/kafka/reliability)
 - [Kafka消息发送与存储原理](https://javaup.chat/framework/kafka/send-storage)
@@ -402,7 +402,7 @@
 - [Kafka重平衡机制深度解析](https://javaup.chat/framework/kafka/rebalance)
 - [Kafka高级特性与核心机制](https://javaup.chat/framework/kafka/advanced)
 
-#### RocketMQ
+### RocketMQ
 - [RocketMQ架构设计与工作流程](https://javaup.chat/framework/rocketmq/architecture)
 - [RocketMQ消息可靠性保障机制](https://javaup.chat/framework/rocketmq/reliability)
 - [RocketMQ消费模式与消息分发](https://javaup.chat/framework/rocketmq/consume-mode)
@@ -410,14 +410,14 @@
 - [RocketMQ高级特性与事务消息](https://javaup.chat/framework/rocketmq/advanced-features)
 - [RocketMQ性能优化与故障处理](https://javaup.chat/framework/rocketmq/performance)
 
-#### RabbitMQ
+### RabbitMQ
 - [RabbitMQ架构与工作模式](https://javaup.chat/framework/rabbitmq/architecture-work-mode)
 - [消息可靠性保障机制](https://javaup.chat/framework/rabbitmq/message-reliability)
 - [高级特性与应用场景](https://javaup.chat/framework/rabbitmq/advanced-features)
 - [消费者流控与幂等性保障](https://javaup.chat/framework/rabbitmq/consumer-flow-control)
 - [集群架构与高可用方案](https://javaup.chat/framework/rabbitmq/cluster-ha)
 
-#### Elasticsearch
+### Elasticsearch
 - [Elasticsearch基础与数据类型](https://javaup.chat/framework/elasticsearch/basic-datatypes)
 - [倒排索引原理与性能优势](https://javaup.chat/framework/elasticsearch/inverted-index)
 - [集群架构与节点角色](https://javaup.chat/framework/elasticsearch/cluster-architecture)
@@ -427,7 +427,7 @@
 - [性能优化最佳实践](https://javaup.chat/framework/elasticsearch/performance-optimization)
 - [数据同步与一致性保障](https://javaup.chat/framework/elasticsearch/data-synchronization)
 
-#### Dubbo
+### Dubbo
 - [RPC与Dubbo基础概念](https://javaup.chat/framework/dubbo/rpc-basic)
 - [Dubbo核心架构与调用流程](https://javaup.chat/framework/dubbo/core-architecture)
 - [Dubbo序列化与通信协议](https://javaup.chat/framework/dubbo/serialization-protocol)
@@ -435,7 +435,7 @@
 - [Dubbo扩展机制SPI详解](https://javaup.chat/framework/dubbo/spi-extension)
 - [Dubbo高级特性与应用](https://javaup.chat/framework/dubbo/advanced-features)
 
-#### Netty
+### Netty
 - [Netty核心架构与线程模型](https://javaup.chat/framework/netty/core-architecture)
 - [Netty设计模式深度剖析](https://javaup.chat/framework/netty/design-patterns)
 - [Netty零拷贝技术详解](https://javaup.chat/framework/netty/zero-copy)
@@ -443,12 +443,12 @@
 - [Netty性能优化技术全解析](https://javaup.chat/framework/netty/performance-optimization)
 - [Netty序列化与粘包拆包处理](https://javaup.chat/framework/netty/serialization-sticky-packet)
 
-#### XXL-JOB
+### XXL-JOB
 - [XXL-JOB调度机制与一致性保障](https://javaup.chat/framework/xxl-job/scheduling-consistency)
 - [XXL-JOB时间轮算法详解](https://javaup.chat/framework/xxl-job/time-wheel)
 - [XXL-JOB分片任务与并行调度](https://javaup.chat/framework/xxl-job/sharding-task)
 
-#### Tomcat
+### Tomcat
 - [Tomcat核心架构与启动流程](https://javaup.chat/java/tomcat/architecture-and-startup)
 - [Tomcat请求处理机制详解](https://javaup.chat/java/tomcat/request-processing)
 - [Tomcat类加载器与类加载机制](https://javaup.chat/java/tomcat/classloader)
@@ -456,45 +456,45 @@
 
 ---
 
-### 进阶架构设计
+## 进阶架构设计
 
-#### 微服务
+### 微服务
 - [微服务架构设计理念](https://javaup.chat/architecture/microservice/design-philosophy)
 - [微服务拆分策略与实践](https://javaup.chat/architecture/microservice/split-strategy)
 - [微服务间通信技术详解](https://javaup.chat/architecture/microservice/communication)
 - [微服务治理与稳定性保障](https://javaup.chat/architecture/microservice/governance-stability)
 - [微服务发布与部署策略](https://javaup.chat/architecture/microservice/deploy-strategy)
 
-#### 分布式理论
+### 分布式理论
 - [分布式系统一致性理论详解](https://javaup.chat/architecture/distributed-theory/consistency-theory)
 - [一致性哈希算法原理与实践](https://javaup.chat/architecture/distributed-theory/consistent-hashing)
 - [分布式共识算法与拜占庭问题](https://javaup.chat/architecture/distributed-theory/consensus-and-byzantine)
 
-#### 分布式ID
+### 分布式ID
 - [分布式ID生成方案详解](https://javaup.chat/architecture/distributed-id/generation-solutions)
 
-#### 限流与熔断
+### 限流与熔断
 - [限流算法原理与实现](https://javaup.chat/architecture/rate-limiting/algorithm-principle)
 - [熔断降级机制与实践](https://javaup.chat/architecture/rate-limiting/circuit-breaker)
 - [高级限流策略与应用](https://javaup.chat/architecture/rate-limiting/advanced-strategy)
 - [高并发系统设计实践](https://javaup.chat/architecture/rate-limiting/high-concurrency-design)
 
-#### 缓存设计
+### 缓存设计
 - [缓存淘汰策略详解](https://javaup.chat/architecture/cache/eviction-strategies)
 - [本地缓存实现与应用](https://javaup.chat/architecture/cache/local-cache-implementation)
 - [本地缓存一致性保障方案](https://javaup.chat/architecture/cache/local-cache-consistency)
 - [多级缓存架构设计与实践](https://javaup.chat/architecture/cache/multi-level-cache-architecture)
 
-#### 布隆过滤器
+### 布隆过滤器
 - [布隆过滤器原理与实战应用](https://javaup.chat/architecture/bloom-filter/principle-and-practice)
 
-#### 故障排查
+### 故障排查
 - [JVM诊断工具命令详解](https://javaup.chat/architecture/problem-solving/jvm-diagnostic-tools)
 - [堆内存分析与Dump文件处理](https://javaup.chat/architecture/problem-solving/heap-dump-analysis)
 - [字节码插桩技术与性能监控](https://javaup.chat/architecture/problem-solving/bytecode-instrumentation)
 - [Linux日志分析与问题排查实战](https://javaup.chat/architecture/problem-solving/log-analysis)
 
-#### 分库分表
+### 分库分表
 - [分库分表核心概念与应用场景](https://javaup.chat/architecture/sharding/concepts)
 - [分表字段选择与数据倾斜治理](https://javaup.chat/architecture/sharding/shard-key-selection)
 - [分片算法与ShardingJDBC路由策略](https://javaup.chat/architecture/sharding/algorithms)
@@ -503,32 +503,32 @@
 - [跨库查询与性能优化](https://javaup.chat/architecture/sharding/query-optimization)
 - [分布式数据库核心原理与选型实践](https://javaup.chat/architecture/sharding/distributed-database)
 
-#### 分布式事务
+### 分布式事务
 - [分布式事务基础概念与解决方案](https://javaup.chat/architecture/distributed-transaction/fundamentals)
 - [两阶段与三阶段提交协议](https://javaup.chat/architecture/distributed-transaction/2pc-3pc)
 - [TCC分布式事务详解](https://javaup.chat/architecture/distributed-transaction/tcc)
 - [基于消息的分布式事务方案](https://javaup.chat/architecture/distributed-transaction/message-based)
 - [本地消息表实现与优化](https://javaup.chat/architecture/distributed-transaction/local-message-table)
 
-#### Seata
+### Seata
 - [Seata分布式事务框架核心原理](https://javaup.chat/architecture/seata/core-principle)
 - [Seata事务模式详解与选型指南](https://javaup.chat/architecture/seata/transaction-modes)
 - [AT模式深度剖析与隔离性问题](https://javaup.chat/architecture/seata/at-mode-analysis)
 
-#### DDD 领域驱动
+### DDD 领域驱动
 - [领域驱动设计核心思想与价值](https://javaup.chat/architecture/ddd/core-concept)
 - [DDD分层架构模式详解](https://javaup.chat/architecture/ddd/layered-architecture)
 - [领域模型核心构建要素](https://javaup.chat/architecture/ddd/domain-model-elements)
 - [领域事件与DDD落地实践](https://javaup.chat/architecture/ddd/domain-event-and-practice)
 
-#### AI 人工智能
+### AI 人工智能
 - [大模型核心概念与技术原理](https://javaup.chat/architecture/ai/llm-fundamentals)
 - [DeepSeek技术架构解析](https://javaup.chat/architecture/ai/deepseek)
 - [RAG检索增强生成技术](https://javaup.chat/architecture/ai/rag)
 - [AI Agent与工具调用协议](https://javaup.chat/architecture/ai/agent-tools)
 - [Spring AI开发框架实践](https://javaup.chat/architecture/ai/spring-ai)
 
-#### 方案设计
+### 方案设计
 - [秒杀系统架构与库存扣减设计](https://javaup.chat/architecture/solution-design/flash-sale-inventory)
 - [消息队列设计与消息乱序处理](https://javaup.chat/architecture/solution-design/mq-order-design)
 - [高并发计数系统设计](https://javaup.chat/architecture/solution-design/high-concurrency-counter)
@@ -538,7 +538,7 @@
 
 ---
 
-## 🛠️ 五大实战项目
+# 🛠️ 五大实战项目
 
 每个项目都有独特的技术亮点，绝不是平平无奇的CRUD！
 
@@ -561,9 +561,9 @@
 
 ---
 
-## 🎯 学习建议
+# 🎯 学习建议
 
-### 系统学习路线
+## 系统学习路线
 
 如果你是 Java 初学者或想系统复习，建议按照以下顺序学习：
 
@@ -574,7 +574,7 @@
 5. **进阶架构** → 提升架构设计能力
 6. **实战项目** → 动手实践，融会贯通
 
-### 面试突击指南
+## 面试突击指南
 
 如果你即将面试，重点关注：
 
@@ -586,7 +586,7 @@
 
 ---
 
-## 🌟 加入知识星球
+# 🌟 加入知识星球
 
 **JavaUp 技术&实战** 星球提供：
 
@@ -605,7 +605,7 @@
 
 ---
 
-## ⭐ 请给个Star
+# ⭐ 请给个Star
 
 如果觉得 **JavaUp** 的内容对你有帮助，还请点个免费的 **Star**，这是对我最大的鼓励！
 
@@ -613,16 +613,7 @@
 
 ---
 
-## 📬 联系方式
-
-- **在线文档**：[javaup.chat](https://javaup.chat/)
-- **知识星球**：JavaUp 技术&实战
-
----
-
 ## 参与贡献
 
 1. 如果你对本项目有任何建议或发现文中内容有误的，欢迎提交 Issues 进行指正
 2. 对于文中没有涉及到的知识点，欢迎提交 PR
-
-让我们一起打造最好的 Java 技术知识库！
