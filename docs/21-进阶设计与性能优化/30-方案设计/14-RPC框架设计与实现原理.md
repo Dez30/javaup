@@ -1,0 +1,85 @@
+---
+slug: /architecture/solution-design/rpc-framework-design
+sidebar_class_name: has-paid-badge
+---
+
+import PaidCTA from '@site/src/components/PaidCTA';
+
+# RPC框架设计与实现原理
+
+## RPC框架核心概念
+
+RPC（Remote Procedure Call）远程过程调用，其目标是让远程服务调用像本地方法调用一样简单。一个完整的RPC框架需要解决服务发现、网络传输、序列化、负载均衡等多个技术问题。
+
+### 整体架构设计
+
+```mermaid
+graph TD
+    subgraph 服务消费方
+        A["业务代码"]
+        B["动态代理"]
+        C["负载均衡"]
+        D["网络传输"]
+    end
+    
+    subgraph 注册中心
+        E["服务注册表"]
+    end
+    
+    subgraph 服务提供方
+        F["网络传输"]
+        G["请求处理"]
+        H["业务实现"]
+    end
+    
+    A --> B
+    B --> C
+    C --> D
+    D <--> F
+    F --> G
+    G --> H
+    
+    D -.->|服务发现| E
+    F -.->|服务注册| E
+    
+    style A fill:#4A90E2,color:#fff,rx:10,ry:10
+    style B fill:#9B59B6,color:#fff,rx:10,ry:10
+    style E fill:#E67E22,color:#fff,rx:10,ry:10
+    style H fill:#27AE60,color:#fff,rx:10,ry:10
+```
+
+### 核心组件职责
+
+| 组件 | 职责描述 | 技术选型 |
+|------|---------|---------|
+| 注册中心 | 服务地址的注册与发现 | ZooKeeper/Nacos/Consul |
+| 网络传输 | 客户端与服务端的数据通信 | Netty/Mina |
+| 序列化 | 对象与字节流的相互转换 | Protobuf/Kryo/Hessian |
+| 动态代理 | 屏蔽远程调用细节 | JDK动态代理/CGLIB |
+| 负载均衡 | 多服务实例间的请求分发 | 随机/轮询/一致性哈希 |
+
+## 注册中心设计
+
+### ZooKeeper作为注册中心
+
+```mermaid
+graph TD
+    A["ZooKeeper集群"] --> B["/rpc"]
+    B --> C["/services"]
+    C --> D["/com.example.UserService"]
+    C --> E["/com.example.OrderService"]
+    
+    D --> F["192.168.1.10:8080"]
+    D --> G["192.168.1.11:8080"]
+    E --> H["192.168.1.20:9090"]
+    
+    style A fill:#4A90E2,color:#fff,rx:10,ry:10
+    style D fill:#27AE60,color:#fff,rx:10,ry:10
+    style E fill:#27AE60,color:#fff,rx:10,ry:10
+    style F fill:#E67E22,color:#fff,rx:10,ry:10
+    style G fill:#E67E22,color:#fff,rx:10,ry:10
+```
+
+**服务注册实现**：
+
+<PaidCTA />

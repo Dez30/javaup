@@ -71,6 +71,7 @@
 - [equals与hashCode方法详解](https://javaup.chat/java/base/equals-hashcode)
 - [Arrays排序算法详解](https://javaup.chat/java/base/arrays-sort)
 - [ClassNotFoundException异常分析](https://javaup.chat/java/base/classnotfoundexception)
+- [Request的相关概念解释](https://javaup.chat/java/base/request-concepts)
 
 ### 集合框架
 - [Java集合框架详解](https://javaup.chat/java/collect/introduce)
@@ -102,18 +103,26 @@
 ### JVM 虚拟机
 
 **内存分布**
-- [JVM运行时内存区域详解](https://javaup.chat/java/jvm/memory-area)
-- [Java进程内存结构与方法区演进](https://javaup.chat/java/jvm/process-memory-structure)
+- [JVM运行时数据区概述](https://javaup.chat/java/jvm/runtime-data-areas-overview)
+- [虚拟机栈与本地方法栈](https://javaup.chat/java/jvm/vm-stack-and-native-stack)
+- [Java堆内存详解](https://javaup.chat/java/jvm/java-heap-memory)
+- [对象分代晋升规则](https://javaup.chat/java/jvm/object-promotion-rules)
+- [方法区与元空间](https://javaup.chat/java/jvm/method-area-and-metaspace)
+- [字符串常量池与直接内存](https://javaup.chat/java/jvm/string-pool-and-direct-memory)
+- [对象创建流程详解](https://javaup.chat/java/jvm/object-creation-process)
+- [对象内存布局详解](https://javaup.chat/java/jvm/object-memory-layout)
+- [对象访问定位与堆栈区别](https://javaup.chat/java/jvm/object-access-and-heap-stack)
+- [Java进程内存结构详解](https://javaup.chat/java/jvm/process-memory-structure)
 - [对象创建与内存分配策略](https://javaup.chat/java/jvm/object-creation-and-memory-allocation)
-- [对象存活判断与GC Roots](https://javaup.chat/java/jvm/object-liveness-detection)
-- [常量池机制与内存结构深度解析](https://javaup.chat/java/jvm/constant-pool-mechanism)
+- [对象存活判断与GC Roots](https://javaup.chat/java/jvm/object-liveness-and-gc-roots)
+- [常量池机制与内存结构深度解析](https://javaup.chat/java/jvm/constant-pool-and-memory-structure)
 
 **内存回收**
 - [JVM垃圾回收机制深度解析](https://javaup.chat/java/jvm/garbage-collection)
 - [垃圾回收流程与触发机制](https://javaup.chat/java/jvm/gc-process-and-triggers)
 - [内存分配与回收原则](https://javaup.chat/java/jvm/memory-allocation-principles)
 
-**垃圾收集器**
+**垃圾回收**
 - [垃圾收集器详解](https://javaup.chat/java/jvm/garbage-collectors)
 - [G1垃圾收集器原理与优化](https://javaup.chat/java/jvm/g1-collector)
 - [ZGC低延迟垃圾收集器](https://javaup.chat/java/jvm/zgc-collector)
@@ -121,10 +130,16 @@
 - [垃圾收集器对比与选型策略](https://javaup.chat/java/jvm/gc-selection-strategy)
 
 **诊断与调优**
-- [JIT与AOT编译技术深度解析](https://javaup.chat/java/jvm/compilation-optimization)
-- [内存异常处理与JVM稳定性保障](https://javaup.chat/java/jvm/memory-exceptions-stability)
-- [JVM参数配置与性能调优](https://javaup.chat/java/jvm/jvm-parameters-tuning)
-- [JVM诊断分析工具实战](https://javaup.chat/java/jvm/jvm-diagnostic-tools)
+- [JIT即时编译技术详解](https://javaup.chat/java/jvm/jit-compilation)
+- [AOT编译与混合编译策略](https://javaup.chat/java/jvm/aot-compilation)
+- [内存泄漏与内存溢出](https://javaup.chat/java/jvm/memory-leak-and-oom)
+- [JVM异常处理与退出机制](https://javaup.chat/java/jvm/exception-handling-and-exit)
+- [内存问题排查与恢复策略](https://javaup.chat/java/jvm/memory-troubleshooting-recovery)
+- [JVM堆内存与元空间配置](https://javaup.chat/java/jvm/heap-and-metaspace-config)
+- [垃圾回收器与GC日志配置](https://javaup.chat/java/jvm/gc-and-logging-config)
+- [JDK命令行诊断工具](https://javaup.chat/java/jvm/jdk-command-line-tools)
+- [JVM可视化诊断工具](https://javaup.chat/java/jvm/visual-diagnostic-tools)
+- [第三方诊断工具与实战](https://javaup.chat/java/jvm/third-party-tools-and-practice)
 
 ### 类加载
 - [类的生命周期与加载时机](https://javaup.chat/java/class-loading/lifecycle-and-timing)
@@ -249,14 +264,14 @@
 
 ### MySQL
 
-**锁机制**
+**MySQL锁**
 - [MySQL锁机制概述](https://javaup.chat/database/mysql/lock-mechanism-overview)
 - [MySQL锁的粒度与层级](https://javaup.chat/database/mysql/lock-granularity)
 - [MySQL行级锁详解](https://javaup.chat/database/mysql/row-level-locks)
 - [MySQL乐观锁与悲观锁实战](https://javaup.chat/database/mysql/optimistic-pessimistic-locks)
 - [MySQL死锁问题分析与解决](https://javaup.chat/database/mysql/deadlock-analysis)
 
-**事务机制**
+**MySQL事务`**
 - [MySQL事务机制与ACID特性](https://javaup.chat/database/mysql/transaction-acid)
 - [MySQL事务执行流程与两阶段提交](https://javaup.chat/database/mysql/transaction-execution)
 - [MySQL事务隔离级别详解](https://javaup.chat/database/mysql/transaction-isolation)
@@ -265,28 +280,28 @@
 - [MySQL事务优化实战](https://javaup.chat/database/mysql/transaction-optimization)
 - [MySQL事务隔离级别选择策略](https://javaup.chat/database/mysql/isolation-level-choice)
 
-**索引优化**
+**MySQL索引**
 - [MySQL索引基础与底层原理](https://javaup.chat/database/mysql/index-fundamentals)
 - [MySQL索引类型与存储结构](https://javaup.chat/database/mysql/index-types)
 - [MySQL联合索引与查询优化](https://javaup.chat/database/mysql/composite-index-optimization)
 - [MySQL索引失效问题排查](https://javaup.chat/database/mysql/index-failure-troubleshooting)
 - [MySQL索引设计最佳实践](https://javaup.chat/database/mysql/index-design-best-practices)
 
-**SQL 调优**
+**MySQL慢SQL调优**
 - [执行计划深度解析与实战](https://javaup.chat/database/mysql/execution-plan-analysis)
 - [ORDER BY排序机制与优化](https://javaup.chat/database/mysql/order-by-optimization)
 - [JOIN查询优化与实战](https://javaup.chat/database/mysql/join-optimization)
 - [SQL性能调优全面指南](https://javaup.chat/database/mysql/sql-performance-tuning)
 - [MySQL分页查询原理与深度优化](https://javaup.chat/database/mysql/pagination-optimization)
 
-**架构特性**
+**MySQL特征**
 - [MySQL架构与执行流程](https://javaup.chat/database/mysql/architecture-execution)
 - [MySQL存储引擎与高级特性](https://javaup.chat/database/mysql/storage-engine-advanced)
 - [MySQL主从复制与同步机制详解](https://javaup.chat/database/mysql/replication-synchronization)
 - [MySQL版本特性与演进](https://javaup.chat/database/mysql/version-features-evolution)
 - [MySQL查询缓存机制详解](https://javaup.chat/database/mysql/query-cache-mechanism)
 
-**实战优化**
+**MySQL使用的优化**
 - [MySQL字段类型与设计规范](https://javaup.chat/database/mysql/field-types-design)
 - [MySQL主键设计与自增机制](https://javaup.chat/database/mysql/primary-key-auto-increment)
 - [MySQL性能优化与开发规范](https://javaup.chat/database/mysql/optimization-specification)
@@ -295,7 +310,7 @@
 - [MySQL热点数据更新优化方案](https://javaup.chat/database/mysql/hotspot-update-optimization)
 - [MySQL数据加密与安全实践](https://javaup.chat/database/mysql/data-encryption-security)
 
-**进阶实战**
+**MySQL进阶实战**
 - [大表在线DDL操作实战](https://javaup.chat/database/mysql/online-ddl)
 - [千万级数据查询优化实战](https://javaup.chat/database/mysql/query-optimization)
 - [热点数据更新与缓存策略](https://javaup.chat/database/mysql/hotspot-cache)
@@ -341,7 +356,9 @@
 - [Spring核心概念详解](https://javaup.chat/framework/spring/core-concepts)
 - [Bean生命周期与依赖注入](https://javaup.chat/framework/spring/bean-lifecycle)
 - [Spring高级特性与应用](https://javaup.chat/framework/spring/advanced-features)
+- [Spring事件机制详解]((https://javaup.chat/framework/spring/event-mechanism)
 - [Spring循环依赖解决方案详解](https://javaup.chat/framework/spring/circular-dependency)
+- [Spring后置处理器详解]((https://javaup.chat/framework/spring/post-processor)
 
 **Spring 事务**
 - [Spring事务管理核心详解](https://javaup.chat/framework/spring/transaction-core)
@@ -352,12 +369,17 @@
 
 **SpringBoot**
 - [SpringBoot核心特性与设计理念](https://javaup.chat/framework/spring/springboot-core-features)
+- [AutoConfigureBefore 注解完全指南](https://javaup.chat/framework/spring/autoconfigure-before)
 - [SpringBoot自动配置原理深度剖析](https://javaup.chat/framework/spring/springboot-auto-configuration)
 - [SpringBoot启动与Web容器](https://javaup.chat/framework/spring/springboot-web-container)
 - [SpringBoot自定义Starter开发](https://javaup.chat/framework/spring/custom-starter-development)
+- [到底为什么要使用自动装配？而不是@Configuration](https://javaup.chat/framework/spring/auto-replace-configuration)
+- [SpringBoot多环境配置详解](https://javaup.chat/framework/spring/springboot-multi-profile-config)
+- [SpringBoot条件化Bean配置详解](https://javaup.chat/framework/spring/springboot-conditional-bean)
 - [SpringBoot3与Spring6新特性](https://javaup.chat/framework/spring/springboot3-spring6-features)
 - [SpringBoot Bean加载顺序控制](https://javaup.chat/framework/spring/bean-loading-order)
 - [SpringBoot启动原理](https://javaup.chat/framework/spring/springboot-startup)
+- [SpringBoot4与Spring7新特性](https://javaup.chat/framework/spring/springboot4-spring7-features)
 
 ### MyBatis
 - [MyBatis基础与核心概念](https://javaup.chat/framework/mybatis/basic-concepts)
@@ -472,6 +494,7 @@
 
 ### 分布式ID
 - [分布式ID生成方案详解](https://javaup.chat/architecture/distributed-id/generation-solutions)
+- [为什么MybatisPlus生成的id在k8s环境会发生重复](https://javaup.chat/architecture/distributed-id/mybatis-plus-id-duplicate-k8s)
 
 ### 限流与熔断
 - [限流算法原理与实现](https://javaup.chat/architecture/rate-limiting/algorithm-principle)
@@ -487,6 +510,10 @@
 
 ### 布隆过滤器
 - [布隆过滤器原理与实战应用](https://javaup.chat/architecture/bloom-filter/principle-and-practice)
+
+#### 延迟队列
+- [如何设计高效的延迟队列]((https://javaup.chat/architecture/delay-queue/design)
+- [Redisson分布式延迟队列原理解析]((https://javaup.chat/architecture/delay-queue/redisson-delay-queue)
 
 ### 故障排查
 - [JVM诊断工具命令详解](https://javaup.chat/architecture/problem-solving/jvm-diagnostic-tools)
@@ -535,6 +562,15 @@
 - [缓存系统设计与预热策略](https://javaup.chat/architecture/solution-design/cache-design-warmup)
 - [订单支付并发冲突处理](https://javaup.chat/architecture/solution-design/payment-concurrency)
 - [敏感词过滤算法与实现](https://javaup.chat/architecture/solution-design/sensitive-word-filter)
+- [短链服务设计与分布式ID生成](https://javaup.chat/architecture/solution-design/short-url-distributed-id)
+- [高并发流量应对与防护策略](https://javaup.chat/architecture/solution-design/high-concurrency-protection)
+- [接口性能优化与第三方服务治理](https://javaup.chat/architecture/solution-design/api-performance-third-party)
+- [用户认证授权与会话管理](https://javaup.chat/architecture/solution-design/auth-session-management)
+- [大规模消息推送系统设计](https://javaup.chat/architecture/solution-design/large-scale-notification)
+- [信息流Feed系统架构设计](https://javaup.chat/architecture/solution-design/feed-system-architecture)
+- [网站流量统计与分析方案](https://javaup.chat/architecture/solution-design/traffic-statistics)
+- [RPC框架设计与实现原理](https://javaup.chat/architecture/solution-design/rpc-framework-design)
+- [消息队列设计核心要点](https://javaup.chat/architecture/solution-design/message-queue-design)
 
 ---
 
