@@ -100,12 +100,12 @@ Spring提供了两种事务管理方式:编程式事务和声明式事务。
 
 ```mermaid
 graph TB
-    A[Spring事务管理] --> B[编程式事务]
-    A --> C[声明式事务]
-    B --> D[TransactionTemplate]
-    B --> E[PlatformTransactionManager]
-    C --> F[@Transactional注解]
-    C --> G[XML配置]
+    A["Spring事务管理"] --> B["编程式事务"]
+    A --> C["声明式事务"]
+    B --> D["TransactionTemplate"]
+    B --> E["PlatformTransactionManager"]
+    C --> F["@Transactional注解"]
+    C --> G["XML配置"]
     
     style C fill:#90EE90,rx:10,ry:10
     style B fill:#FFB6C1,rx:10,ry:10
