@@ -125,7 +125,10 @@ var _hmt = _hmt || [];
           };
         },
         getClientModules() {
-          return [require.resolve('./src/baidu-analytics-client.js')];
+          return [
+            require.resolve('./src/baidu-analytics-client.js'),
+            require.resolve('./src/copy-copyright.js'),
+          ];
         },
       };
     },
