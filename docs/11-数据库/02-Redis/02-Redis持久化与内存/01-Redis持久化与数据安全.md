@@ -1,5 +1,5 @@
 ---
-slug: /database/redis/persistence
+slug: /database/redis/data-safety
 ---
 # Redis持久化与数据安全
 
