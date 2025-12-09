@@ -20,6 +20,8 @@
   <a href="https://v.douyin.com/GqOL-QOUVaE/">抖音</a>
 </p>
 
+![](https://multimedia-javaup.cn/super-baguwen/homePage.png)
+
 # ⭐ 请给个Star
 
 如果觉得 **JavaUp** 的内容对你有帮助，还请点个免费的 **Star**，这是对我最大的鼓励！
