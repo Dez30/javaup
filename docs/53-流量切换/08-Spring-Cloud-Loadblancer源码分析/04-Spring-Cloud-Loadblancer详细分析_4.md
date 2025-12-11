@@ -1,5 +1,7 @@
 ---
 slug: /link-flow/loadbalancer-analysis/sclb-analysis-4
+description: "Spring Cloud LoadBalancer源码分析系列第四篇，深入分析RoundRobinLoadBalancer的服务列表获取机制，详解ServiceInstanceListSupplier的创建、缓存策略和轮询算法实现。"
+keywords: ["RoundRobinLoadBalancer", "ServiceInstanceListSupplier", "轮询策略", "服务列表获取", "缓存策略"]
 ---
 
 # Spring-Cloud-Loadblancer详细分析_4

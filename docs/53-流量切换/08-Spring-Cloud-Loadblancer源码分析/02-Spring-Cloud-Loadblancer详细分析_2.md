@@ -1,5 +1,7 @@
 ---
 slug: /link-flow/loadbalancer-analysis/sclb-analysis-2
+description: "Spring Cloud LoadBalancer源码分析系列第二篇，深入解析@LoadBalancerClients注解实现不同服务配置隔离的机制，分析LoadBalancerClientConfigurationRegistrar和子容器创建过程。"
+keywords: ["@LoadBalancerClients", "配置隔离", "LoadBalancerClientFactory", "子容器", "服务发现"]
 ---
 
 # Spring-Cloud-Loadblancer详细分析_2

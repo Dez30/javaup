@@ -1,6 +1,8 @@
 ---
 slug: /damai/damai-pro/admin-console
 sidebar_class_name: has-new-badge
+description: "大麦pro后台管理系统的完整功能介绍，实现数据库与Redis座位状态、余票数量、订单状态的实时对比监控，支持节目列表、订单列表、废弃订单、MQ消息记录查询，实现问题自动发现与补偿的完整运维能力。"
+keywords: ["后台管理", "数据监控", "对账系统", "MQ消息记录", "废弃订单"]
 ---
 
 # 大麦pro后台管理介绍

@@ -1,5 +1,7 @@
 ---
 slug: /hmdp-plus/cache-architecture/message-dlq-compensation
+description: "详细讲解MQ消息发送失败后的处理流程，包括死信队列设计、失败重试策略以及补偿机制的实现。"
+keywords: ["死信队列", "DLQ", "消息补偿", "失败重试", "Kafka发送失败"]
 ---
 
 import PaidCTA from '@site/src/components/PaidCTA';

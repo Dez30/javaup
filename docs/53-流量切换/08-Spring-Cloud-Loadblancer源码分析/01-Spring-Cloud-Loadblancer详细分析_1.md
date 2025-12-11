@@ -1,5 +1,7 @@
 ---
 slug: /link-flow/loadbalancer-analysis/sclb-analysis-1
+description: "Spring Cloud LoadBalancer源码分析系列第一篇，介Feign入口开始分析LoadBalancer与Feign的集成，详解FeignBlockingLoadBalancerClient和LoadBalancerClientFactory的加载与初始化过程。"
+keywords: ["LoadBalancer源码", "Feign集成", "FeignBlockingLoadBalancerClient", "负载均衡", "SpringCloud"]
 ---
 
 # Spring-Cloud-Loadblancer详细分析_1

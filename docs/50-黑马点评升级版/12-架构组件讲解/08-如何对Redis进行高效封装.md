@@ -1,5 +1,7 @@
 ---
 slug: /hmdp-plus/components/redis-wrapper
+description: "讲解如何对Redis进行高效封装，解决对象转换、键管理等痛点，提供统一的缓存操作接口。"
+keywords: ["Redis封装", "键管理", "缓存组件", "对象转换", "RedisTemplate"]
 ---
 
 import PaidCTA from '@site/src/components/PaidCTA';

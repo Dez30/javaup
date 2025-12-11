@@ -1,5 +1,7 @@
 ---
 slug: /hmdp-plus/components/kafka-producer
+description: "详细介绍 Kafka生产者抽象组件的设计，包括消息发送处理、失败重试、成功回调等机制。"
+keywords: ["Kafka生产者", "MQ组件", "消息发送", "失败重试", "设计模式"]
 ---
 
 import PaidCTA from '@site/src/components/PaidCTA';

@@ -1,5 +1,7 @@
 ---
 slug: /hmdp-plus/tech-essentials/redisson-delay-queue
+description: "深度剖析Redisson延迟队列的底层实现原理，详解阻塞队列与延迟队列的初始化流程、zset与list双队列数据结构设计、QueueTransferTask任务调度机制、pushTask与scheduleTask相互调用逻辑，以及消息发送与消费的完整Lua脚本执行过程。"
+keywords: ["Redisson延迟队列", "RDelayedQueue", "时间轮", "Lua脚本", "BLPOP"]
 ---
 # Redisson分布式延迟队列原理解析
 

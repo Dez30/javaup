@@ -1,5 +1,7 @@
 ---
 slug: /damai/getting-started/install-ngrok
+description: "ngrok内网穿透工具的完整安装教程，从官网下载、账号注册、密钥配置到本地端口映射到公网的全流程步骤说明，解决本地开发环境下支付宝等第三方回调需要公网地址的问题。"
+keywords: ["ngrok安装", "内网穿透", "端口映射", "公网地址", "本地开发"]
 ---
 
 # 如何安装ngrok

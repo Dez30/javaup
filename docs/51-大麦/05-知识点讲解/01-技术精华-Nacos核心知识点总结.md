@@ -1,5 +1,7 @@
 ---
 slug: /damai/knowledge/nacos-core
+description: "Nacos核心知识点深度总结，包括Client模型与连接管理、重试机制、gRPC长连接健康检查、ServiceManager服务管理、集群数据同步、服务注册与发现等核心机制源码级剖析"
+keywords: ["Nacos核心知识", "Client模型", "gRPC长连接", "服务注册发现", "集群数据同步"]
 ---
 
 # Nacos核心知识点总结

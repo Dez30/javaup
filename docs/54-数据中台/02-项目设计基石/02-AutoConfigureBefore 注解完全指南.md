@@ -1,5 +1,7 @@
 ---
 slug: /dock-data-center/design/autoconfigure-before
+description: "@AutoConfigureBefore注解完全指南，解析自动配置类排序机制，详解为什么动态数据源需要在DataSourceAutoConfiguration之前加载，深入理解Spring Boot配置顺序控制。"
+keywords: ["@AutoConfigureBefore", "自动配置顺序", "动态数据源", "DataSourceAutoConfiguration", "Spring Boot"]
 ---
 # AutoConfigureBefore 注解完全指南
 在动态数据源的组件中，加载动态数据源的自动装配类上，会有 `@AutoConfigureBefore` 注解

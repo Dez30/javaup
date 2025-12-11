@@ -1,5 +1,7 @@
 ---
 slug: /hmdp-plus/ops-consistency/redis-db-compare-compensation
+description: "讲解Redis与数据库库存不一致时的对比与补偿流程，确保订单与日志的最终一致性。"
+keywords: ["数据对账", "补偿执行", "Redis一致性", "库存比对", "数据异常"]
 ---
 
 import PaidCTA from '@site/src/components/PaidCTA';

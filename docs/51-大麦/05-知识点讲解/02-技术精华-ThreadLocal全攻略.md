@@ -1,5 +1,7 @@
 ---
 slug: /damai/knowledge/threadlocal-guide
+description: "ThreadLocal全面攻略，深入讲解ThreadLocal、InheritableThreadLocal、TransmittableThreadLocal的用法与原理，分析线程池场景下的数据传递问题及内存泄漏防范"
+keywords: ["ThreadLocal", "InheritableThreadLocal", "TransmittableThreadLocal", "线程本地变量", "内存泄漏"]
 ---
 
 # ThreadLocal全攻略

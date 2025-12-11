@@ -1,5 +1,7 @@
 ---
 slug: /hmdp-plus/basic/redis-message-queue
+description: "介绍基于Redis实现消息队列的三种方案：List结构、PubSub和Stream，分析各自的优缺点和适用场景。"
+keywords: ["Redis消息队列", "Stream", "PubSub", "异步消费", "消息确认"]
 ---
 # Redis 消息队列
 

@@ -1,6 +1,8 @@
 ---
 slug: /damai/damai-pro/release-intro
 sidebar_class_name: has-new-badge
+description: "大麦pro版本的全面介绍，重点解决Redis宕机、MQ消息丢失、数据库与缓存不一致、数据自动恢复等生产级难题，包含动态压测、后台管理系统、分库分表扩容等高级功能，代码量达3万行，提供企业级高并发项目完整解决方案。"
+keywords: ["大麦pro", "Redis宕机处理", "MQ消息丢失", "数据一致性", "分库分表扩容"]
 ---
 
 # 大麦pro版本震撼来袭

@@ -1,5 +1,7 @@
 ---
 slug: /hmdp-plus/components/kafka-consumer
+description: "详细介绍 Kafka消费者抽象组件的设计，包括消费超时、失败处理、幂等消费等机制。"
+keywords: ["Kafka消费者", "MQ组件", "消息消费", "超时处理", "幂等消费"]
 ---
 
 import PaidCTA from '@site/src/components/PaidCTA';

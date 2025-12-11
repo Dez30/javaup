@@ -1,5 +1,7 @@
 ---
 slug: /damai/knowledge/gateway-hystrix-pitfalls
+description: "详细分析Gateway集成Hystrix的踩坑经历，包括配置生效条件、线程池与信号量隔离模式的差异、源码级分析默认SEMAPHORE问题及正确的THREAD模式配置方法"
+keywords: ["Gateway Hystrix", "熔断配置", "SEMAPHORE", "THREAD模式", "隔离策略"]
 ---
 
 # Gateway集成Hystrix遇到的巨坑问题

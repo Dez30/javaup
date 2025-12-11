@@ -1,5 +1,7 @@
 ---
 slug: /damai/knowledge/gateway-request-response-custom
+description: "详解Gateway中自定义处理request请求体和response响应体的实现方法，解决请求体过长截取、异常处理等问题，提供生产环境可用的完整代码示例"
+keywords: ["Gateway过滤器", "请求体处理", "响应体修改", "GlobalFilter", "ServerHttpRequestDecorator"]
 ---
 
 # Gateway自定义处理request请求体和response响应体

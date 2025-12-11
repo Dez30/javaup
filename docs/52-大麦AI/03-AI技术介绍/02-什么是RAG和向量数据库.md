@@ -1,5 +1,7 @@
 ---
 slug: /damai-ai/ai-tech-intro/rag-and-vector-db
+description: "深入解析RAG检索增强生成技术原理与向量数据库应用，包括Embedding向量模型、余弦相似度计算、FAISS/Pinecone/Weaviate等主流向量库对比，以及LangChain代码实现RAG问答系统的完整流程"
+keywords: ["RAG", "向量数据库", "Embedding", "FAISS", "语义检索", "LangChain"]
 ---
 
 # 什么是RAG和向量数据库
