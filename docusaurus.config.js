@@ -98,6 +98,13 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        // 显式启用 sitemap 插件
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
       }),
     ],
   ],
@@ -152,6 +159,24 @@ var _hmt = _hmt || [];
           ];
         },
       };
+    },
+  ],
+
+  // SEO 全局元数据
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'keywords',
+        content: 'Java面试,Java八股文,Spring,SpringBoot,MyBatis,Redis,MySQL,微服务,分布式,JVM,并发编程,设计模式',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'description',
+        content: 'JavaUp技术实战 - 提供Java面试八股文、Spring全家桶、微服务架构、分布式系统、数据库优化等全栈技术知识，包含黑马点评升级版、大麦等实战项目讲解。',
+      },
     },
   ],
 

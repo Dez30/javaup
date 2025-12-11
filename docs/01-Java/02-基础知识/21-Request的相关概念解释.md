@@ -1,5 +1,7 @@
 ---
 slug: /java/base/request-concepts
+description: "讲解Spring Web中Request相关核心概念:HttpServletRequest的请求参数/请求头/会话管理等功能;ServletRequestAttributes对Servlet API的Spring封装;RequestContextHolder基于ThreadLocal的请求上下文存储机制;分析三者协作关系及跨层获取请求数据的最佳实践。"
+keywords: ["HttpServletRequest", "RequestContextHolder", "ServletRequestAttributes", "ThreadLocal", "Spring MVC", "请求上下文"]
 ---
 
 # Request的相关概念解释
@@ -104,5 +106,3 @@ if (attributes != null) {
 3. **RequestContextHolder** 则利用 ThreadLocal 存储和管理当前线程的 RequestAttributes，方便在整个 Spring 应用中统一访问请求相关的数据。
 
 这种设计思路既利用了 Servlet API 的原生功能，又通过 Spring 框架的封装实现了解耦和便捷访问，适用于复杂的 web 应用开发场景。
-
-
