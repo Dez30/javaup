@@ -175,3 +175,56 @@
   background-color: #5575f6; /* primary blue - same as "开始学习" button */
   color: #fff;
 }
+
+/* ========== 导航栏响应式优化 ========== */
+
+/* 导航栏整体不换行 */
+.navbar {
+  flex-wrap: nowrap !important;
+}
+
+/* 导航栏内部容器 - 核心控制 */
+.navbar__inner {
+  flex-wrap: nowrap !important;
+  max-width: 100%;
+}
+
+/* 导航栏容器 */
+.navbar > .container,
+.navbar > .container-fluid {
+  flex-wrap: nowrap !important;
+}
+
+/* 防止导航项换行 */
+.navbar__items {
+  flex-wrap: nowrap !important;
+  min-width: 0;
+}
+
+/* 导航栏标题不换行 */
+.navbar__title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 单个导航项不换行 */
+.navbar__item,
+.navbar__link {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* 下拉菜单标签不换行 */
+.dropdown__toggle {
+  white-space: nowrap;
+}
+
+/* 确保下拉菜单可以正常显示 */
+.navbar__item.dropdown {
+  overflow: visible;
+}
+
+.dropdown__menu {
+  overflow: visible;
+}
