@@ -230,9 +230,9 @@ var _hmt = _hmt || [];
           },
           {
             type: 'docSidebar',
-            sidebarId: '进阶设计与性能优化',
+            sidebarId: '高级进阶设计',
             position: 'left',
-            label: '进阶设计与性能优化',
+            label: '高级进阶设计',
           },
           {
             type: 'dropdown',
@@ -280,7 +280,7 @@ var _hmt = _hmt || [];
           },
           {
             type: 'dropdown',
-            label: '仓库地址',
+            label: '源码',
             position: 'right',
             items: [
               {
@@ -295,7 +295,7 @@ var _hmt = _hmt || [];
           },
           {
             type: 'dropdown',
-            label: '视频学习',
+            label: '视频',
             position: 'right',
             items: [
               {
