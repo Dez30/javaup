@@ -138,6 +138,13 @@ const config = {
                 },
               },
               {
+                tagName: 'meta',
+                attributes: {
+                  name: 'google-site-verification',
+                  content: 'sS76SGWqz76cgEPald3tjncVyMFEJPtqwUCa44K4-ks'
+                },
+              },
+              {
                 tagName: 'script',
                 innerHTML: `
 var _hmt = _hmt || [];
