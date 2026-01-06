@@ -454,6 +454,7 @@
 - [Feign核心概念与技术对比](docs/16-框架中间件/21-SpringCloud/10.Feign核心概念与技术对比.md)
 - [Feign配置与超时管理](docs/16-框架中间件/21-SpringCloud/11.Feign配置与超时管理.md)
 - [Feign性能优化与负载均衡](docs/16-框架中间件/21-SpringCloud/12.Feign性能优化与负载均衡.md)
+- [Resilience4j熔断器详解](docs/16-框架中间件/21-SpringCloud/13.Resilience4j熔断器详解.md)
 
 ### Zookeeper
 - [Zookeeper核心架构与数据模型](docs/16-框架中间件/22-Zookeeper/01.Zookeeper核心架构与数据模型.md)
