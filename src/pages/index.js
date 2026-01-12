@@ -192,20 +192,34 @@ function BaguSection() {
           ))}
         </div>
 
-        {/* 功能按钮组 */}
-        <div className={styles.baguActions}>
-          <Link className={clsx('button button--primary button--lg', styles.baguBtnPrimary)} to="/java/interview-skills/preparation-guide">
-            🎯 开始学习
-          </Link>
-          <Link className={clsx('button button--outline button--lg', styles.baguBtnOutline)} to="/how-to-study/intro/super-baguwen">
-            📖 查看全部目录
-          </Link>
-          <Link className={clsx('button button--lg', styles.baguBtnContribute)} to="/how-to-study/contribute/guide">
-            🤝 参与项目贡献
-          </Link>
-          <Link className={clsx('button button--lg', styles.baguBtnStar)} to="/how-to-study/intro/full-service">
-            ⭐ 加入知识星球
-          </Link>
+        {/* 功能按钮组和公众号卡片 */}
+        <div className={styles.baguBottom}>
+          <div className={styles.baguActions}>
+            <Link className={clsx('button button--primary button--lg', styles.baguBtnPrimary)} to="/java/interview-skills/preparation-guide">
+              🎯 开始学习
+            </Link>
+            <Link className={clsx('button button--outline button--lg', styles.baguBtnOutline)} to="/how-to-study/intro/super-baguwen">
+              📖 查看全部目录
+            </Link>
+            <Link className={clsx('button button--lg', styles.baguBtnContribute)} to="/how-to-study/contribute/guide">
+              🤝 参与项目贡献
+            </Link>
+            <Link className={clsx('button button--lg', styles.baguBtnStar)} to="/how-to-study/intro/full-service">
+              ⭐ 加入知识星球
+            </Link>
+          </div>
+          <div className={styles.wechatCard}>
+            <img
+              src="/img/person/gongZhongHao.jpg"
+              alt="公众号二维码"
+              className={styles.wechatCardImg}
+            />
+            <div className={styles.wechatCardInfo}>
+              <span className={styles.wechatCardTitle}>📱 扫码关注公众号</span>
+              <span className={styles.wechatCardName}>阿星不是程序员</span>
+              <span className={styles.wechatCardDesc}>领取最新的学习路线以及简历模板和实战项目</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>

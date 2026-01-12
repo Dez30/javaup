@@ -647,12 +647,19 @@
 }
 
 /* 功能按钮组 - 2x2 网格布局 */
+.baguBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+
 .baguActions {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  max-width: 560px;
-  margin: 0 auto;
+  max-width: 400px;
 }
 
 .baguBtnPrimary {
@@ -718,10 +725,73 @@
   color: #1a1a1a;
 }
 
+/* 公众号小卡片样式 */
+.wechatCard {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 1.25rem 1.75rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.35);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wechatCard:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 14px 36px rgba(102, 126, 234, 0.45);
+}
+
+.wechatCardImg {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+  background: white;
+  padding: 6px;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.wechatCardInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.wechatCardTitle {
+  font-size: 1.15rem;
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 700;
+}
+
+.wechatCardName {
+  font-size: 1.3rem;
+  color: #ffd700;
+  font-weight: 800;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.wechatCardDesc {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 500;
+}
+
 /* 响应式 - 八股文区块 */
 @media screen and (max-width: 1200px) {
   .baguModules {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .baguBottom {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .baguActions {
+    max-width: 400px;
   }
 }
 
@@ -742,7 +812,20 @@
 @media screen and (max-width: 480px) {
   .baguActions {
     grid-template-columns: 1fr;
-    max-width: 300px;
+    max-width: 280px;
+  }
+  
+  .wechatCard {
+    padding: 1rem 1.25rem;
+  }
+  
+  .wechatCardImg {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .wechatCardName {
+    font-size: 1.15rem;
   }
 }
 
